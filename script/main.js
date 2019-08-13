@@ -15,9 +15,13 @@ $(document).ready(function() {
     //     let id = $(this).attr("id");
     //     expand(id);
     // });
-    $("#iDo").show(function() {
-        $("#iDo").animate({ marginLeft: leftMargin }, 500);
-        $("#iDoButton").addClass("selected");
+    // $("#iDo").show(function() {
+    //     $("#iDo").animate({ marginLeft: leftMargin }, 500);
+    //     $("#iDoButton").addClass("selected");
+    // });
+    $("#things").show(function () {
+        $("#things").animate({ marginLeft: leftMargin }, 500);
+        $("#thingsButton").addClass("selected");
     });
     $(".drop").click(function() {
         drop(currentView, previousView);

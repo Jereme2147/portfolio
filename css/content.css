@@ -1,0 +1,285 @@
+#aboutBottom {
+  display: none;
+}
+
+#contactBottom {
+  display: none;
+}
+
+#costBottom {
+  display: none;
+}
+
+.contentStyle {
+  font-display: "Muli", sans-serif;
+  padding: 10px 5px 10px 10px;
+  text-decoration: none;
+}
+
+.contentStyle a {
+  text-decoration: none;
+}
+
+.contentStyle p {
+  color: #181818;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #efefef;
+}
+
+.contentStyle h1 {
+  text-align: center;
+  color: #efefef;
+  text-shadow: 1px 1px 1px #181818;
+}
+
+@media (min-width: 600px) {
+  .contentStyle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contentStyle p {
+    color: #363636;
+    text-shadow: 0 1px 1px #efefef;
+    padding: 10px 5px 0 0;
+    font-size: 30px;
+  }
+}
+
+.contentStyle .bottom {
+  color: #181818;
+  font-size: 20px;
+  padding: 10%;
+  text-shadow: 0 1px 1px #efefef;
+}
+
+@media (min-width: 600px) {
+  .contentStyle .bottom {
+    font-size: 35px;
+    height: 100%;
+  }
+}
+
+#contact {
+  display: none;
+  margin-left: 100%;
+}
+
+.contentCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#cost {
+  display: none;
+  margin-left: 100%;
+}
+
+.drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+}
+
+.drop img {
+  -webkit-animation: arrows 1s alternate infinite;
+          animation: arrows 1s alternate infinite;
+  height: 30px;
+  opacity: .4;
+}
+
+@media (min-width: 600px) {
+  .drop img {
+    height: 40px;
+  }
+}
+
+.drop span {
+  color: #656565;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 600px) {
+  .drop span {
+    font-size: 20px;
+  }
+}
+
+.drop:hover {
+  cursor: pointer;
+}
+
+@-webkit-keyframes arrows {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+
+@keyframes arrows {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+
+#email-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#example img {
+  height: 150px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #181818;
+}
+
+@media (min-width: 600px) {
+  #example img {
+    height: 300px;
+  }
+}
+
+#example img:hover {
+  cursor: pointer;
+}
+
+#iDo {
+  display: none;
+  margin-left: 100%;
+}
+
+#things {
+  display: none;
+  margin-left: 100%;
+}
+
+#mail-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 600px) {
+  #mail-form {
+    width: 100%;
+  }
+}
+
+#mail-form button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Muli", sans-serif;
+  font-size: 20px;
+  color: #4b4b4b;
+  width: 30%;
+  height: 25px;
+  border-radius: 5px;
+  border-top: 2px solid white;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  -webkit-box-shadow: 1px 1px 2px #4b4b4b;
+          box-shadow: 1px 1px 2px #4b4b4b;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#mail-form button:hover {
+  background: blue;
+  border-top: none;
+  color: #efefef;
+}
+
+#mail-form input {
+  width: 45%;
+}
+
+#mail-form input,
+#mail-form textarea {
+  border: none;
+  margin: 5px 5px 5px 5px;
+  border-radius: 3px;
+  border-top: 2px solid white;
+  -webkit-box-shadow: 1px 1px 2px #4b4b4b;
+          box-shadow: 1px 1px 2px #4b4b4b;
+}
+
+@media (min-width: 600px) {
+  #mail-form input,
+  #mail-form textarea {
+    height: 25px;
+  }
+}
+
+#mail-form textarea {
+  width: 100%;
+}
+
+#phoneNumber {
+  opacity: .8;
+  width: 200px;
+}
+/*# sourceMappingURL=content.css.map */

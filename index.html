@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Jereme Daniels Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/main.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/content.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Fira+Sans|Muli"
+            rel="stylesheet"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./script/main.js"></script>
+    </head>
+    <body>
+        <div id="bg"></div>
+        <!--Background effect-->
+        <div id="name"><h3>JEREME DANIELS DEVELOPER</h3></div>
+        <!-- stand alone div. outside flex container. -->
+        <div id="container">
+            <div id="nav">
+                <div id="photo-div">
+                    <img id="photo" src="./media/me.jpg" alt="picture of me" />
+                </div>
+                <div id="buttons">
+                    <ul>
+                        <li id="iDoButton">what i do</li>
+                        <li id="costButton">what it cost</li>
+                        <li id="contactButton">get in touch</li>
+                        <li id="thingsButton">projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <!-- begin about / iDo section  -->
+                <div id="iDo" class="contentStyle"><br>
+                <br>
+                <br>
+                    <h1 class="contentStyle">About</h1>
+                    <br>
+                  
+                    <div id="aboutTop" class="top">
+                        <p>
+                            I develop device responsive websites for you or your business. 
+                            With focus on simplicity we can efficiently communicate your information. 
+                        </p>
+                    </div>
+                    <!-- <h3 id="aboutDrop" class="drop">Drop arrow go here</h3> -->
+                    <div class="drop" id="aboutDrop">
+                        <img src="./media/chevron.png" alt="expand arrow" />
+                        <span>More</span>
+                        <img src="./media/chevron.png" alt="expand arrow" />
+                    </div><br>
+                    <br>
+                    <br>
+                    <div id="aboutBottom" class="bottom">
+                        My goal is to create a user experience the customer and
+                         user enjoy. Currently the first contact the majority 
+                         of users have with your site will be from a mobile device. 
+                         I build sites to look and function just as well on a cell 
+                         phone as they do on a desktop.<br /><br />
+                        
+                         Depending on your needs, a site can be built with any number 
+                         of technologies. From HTML/CSS, JavaScript, PHP, to a 
+                         custom WordPress site and theme. Together we can decide 
+                         the best approach to meet your needs.
+                        <br /><br />
+                        It doesn't matter if it's a full site build or small modifications 
+                        to a current site. 
+                        <br /><br />
+
+                        I’ll give you a honest project completion time and be
+                        in contact every step of the way.<br>
+                        <br>
+                        <br>
+                    </div>
+                            <br>
+                            <br>
+                            <br>
+                </div>
+                
+                <!-- Begin CONTACT section  -->
+                <div id="contact" class="contentStyle">
+                    <div id="contactTop" class="top">
+                        <br><br>
+                        <h1 class="contentStyle">Contacts</h1>
+                        <br>
+                        <br>
+                        <br>
+                        <img
+                            id="phoneNumber"
+                            src="./media/number.png"
+                            alt="contact phone number"
+                        />
+                        <a
+                            href="mailto:jereme.daniels@gmail.com?Subject=info"
+                            target="_top"
+                            alt="link to email jereme daniels"
+                        >
+                            <p>info@jeremedaniels.com</p>
+                        </a>
+                        <p>
+                            Click below to send a quick message. Or, call me.
+                            I'm happy to discuss what I can do for you. You can
+                            also reach me on any of the provided social media
+                            outlets.
+                        </p><br>
+                        <br>
+                        <br>
+                    </div>
+                    <!-- <div class="div-images"></div> -->
+                    <div class="drop" id="contactDrop">
+                        <img src="media/chevron.png" alt="expand arrow" />
+                        <span>Quick Contact</span>
+                        <img src="media/chevron.png" alt="expand arrow" />
+                      
+                    </div><br>
+                    <br>
+                    <br>
+                    <div id="contactBottom" class="bottom">
+                        <!-- <div id="email-form" class="div-style"> -->
+                        <form
+                            id="mail-form"
+                            action="./php/mail.php"
+                            method="POST"
+                        >
+                            <input
+                                class="inputs"
+                                id="first"
+                                type="text"
+                                name="first"
+                                placeholder="First Name"
+                                required
+                            />
+                            <input
+                                class="inputs"
+                                type="text"
+                                name="last"
+                                placeholder="Last Name"
+                                required
+                            />
+                            <input
+                                class="inputs"
+                                type="text"
+                                name="business"
+                                placeholder="Business"
+                            />
+                            <input
+                                class="inputs"
+                                type="email"
+                                name="email"
+                                required
+                                placeholder="Email Address"
+                            />
+                            <textarea
+                                class="inputs"
+                                name="message"
+                                id="email-message"
+                                placeholder="Message"
+                                cols="30"
+                                rows="1"
+                                required
+                            ></textarea>
+                            <button type="submit" name="submit" id="submit">
+                                Send
+                            </button>
+                        </form>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <!-- Begin COST section  -->
+                <div id="cost" class="contentStyle">
+                    <br><br>
+                    <h1 class="contentStyle">Pricing</h1>
+
+                    <div id="costTop" class="top">
+                        <p>
+                        <br>
+                        <br>
+                        <br>
+                     
+                            Sites for nearly all budgets. Contact me for a variety 
+                            of options that will satisfy your needs.
+                        </p><br>
+                        <br>
+                        <br>
+                        <div class="drop" id="costDrop">
+                            <img src="media/chevron.png" alt="expand arrow" />
+                            <span>Pricing and contributing factors</span>
+                            <img src="media/chevron.png" alt="expand arrow" />
+                        </div>
+                    </div>
+                    <div id="costBottom" class="bottom">
+                        <p>Considerations for pricing:</p>
+                        <ul id="list">
+                            <li>Number of pages on the site.</li>
+                            <li>
+                                Degree of design and creative work involved.
+                            </li>
+                            <li>Availibility of your requested domain name.</li>
+                            <li>Method of SEO (Search Engine Optimization) that is chosen.</li>
+                        </ul>
+                        <p>Quotes may be by the job or hourly.  My hourly rate is less than half
+                            of what you'll find anywhere else. I can site specific examples and
+                            time from previous projects. Examples of time spent on design vs 
+                            code time are availible. 
+                        </p>
+                        <p>Call or email me for more information on pricing.</p>
+                    </div><br>
+                    <br>
+                    <br>
+                </div>
+                <!-- Begin THINGs section  -->
+                <div id="things" class="contentStyle">
+                    <div id="example">
+                        <a href="./screens/wp-codewod-desktop.png" target="_blank"><img class="example" id="1" src="./screens/wp-codewod-desktop.png"
+                                alt="" /></a>
+                        <a href="./screens/wp-codewod-mobile.png" target="_blank"><img class="example" id="1" src="./screens/wp-codewod-mobile.png"
+                                alt="" /></a>
+                        <a href="https://www.blueridgepropanenc.net/" target="_blank"><img class="example" id="1" src="./screens/brp-desktop.png" alt="" /></a>
+                        <a href="https://www.blueridgepropanenc.net/" target="_blank"><img class="example" id="1" src="./screens/brp-mobile.png" 
+                                alt="" /></a>
+                        <a href="http://jeremedaniels.com/sharpen/" target="_blank"><img class="example" id="1" src="./screens/sharpen-desktop.png" alt="" /></a>
+                        <a href="http://jeremedaniels.com/sharpen/" target="_blank"><img class="example" id="1" src="./screens/sharpen-mobile.png" alt="" /></a>
+                        <a href="./screens/1.png" target="_blank"><img class="example" id="1" src="./screens/1.png" alt="" /></a>
+                        <a href="./screens/2.png" target="_blank"><img class="example" id="2" src="./screens/2.png" alt="" /></a>
+                        <a href="./screens/3.png" target="_blank"><img class="example" id="3" src="./screens/3.png" alt="" /></a>
+                        <a href="./screens/4.png" target="_blank"><img class="example" id="4" src="./screens/4.png" alt="" /></a>
+                        <a href="./screens/5.png" target="_blank"><img class="example" id="5" src="./screens/5.png" alt="" /></a>
+                        <a href="./screens/6.png" target="_blank"><img class="example" id="6" src="./screens/6.png" alt="" /></a>
+                        <a href="./screens/7.png" target="_blank"><img class="example" id="7" src="./screens/7.png" alt="" /></a>
+                        <a href="./screens/8.png" target="_blank"><img class="example" id="8" src="./screens/8.png" alt="" /></a>
+                        <a href="./screens/9.png" target="_blank"><img class="example" id="9" src="./screens/9.png" alt="" /></a>
+                        <a href="./screens/10.png" target="_blank"><img class="example" id="10" src="./screens/10.png" alt="" /></a>
+                    </div>
+                                            <br>
+                                            <br>
+                                            <br>
+                </div>
+            </div>
+        </div>
+        <div id="contacts">
+            <a href="mailto:jereme.daniels@gmail.com?Subject=info" target="_top"
+                ><img src="./clip/social/mail.png"
+            /></a>
+            <a href="https://twitter.com/jd2147" target="_blank"
+                ><img src="./clip/social/tweet.png"
+            /></a>
+            <a href="https://github.com/jereme2147" target="_blank"
+                ><img src="./clip/social/git.png"
+            /></a>
+            <a href="https://www.instagram.com/jd2147/" target="_blank"
+                ><img src="./clip/social/insta.png"
+            /></a>
+            <a href="https://www.facebook.com/jereme.daniels" target="_blank"
+                ><img src="./clip/social/facebook.png"
+            /></a>
+        </div>
+    </body>
+</html>
